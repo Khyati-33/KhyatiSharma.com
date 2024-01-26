@@ -201,7 +201,7 @@ export const ContactForm = () => {
                 {isSubmitting ? (
                   <div className="spinner"></div>
                 ) : (
-                  "Send to Siddharth"
+                  "Send to Khyati"
                 )}
               </button>
             </form>
@@ -214,7 +214,7 @@ export const ContactForm = () => {
           >
             {" "}
             <p>
-              Siddharth will get back to you ASAP. It is currently{" "}
+              Khyati will get back to you ASAP. It is currently{" "}
               {formatMDTTime()} for him right now.
             </p>
           </motion.div>
@@ -450,11 +450,11 @@ export default function Home() {
                   <div className="space-y-4">
                     <div>
                       <h1 className="text-xl text-blue-900 dark:text-blue-300 dark:text-glow-blue-500/50">
-                        Siddharth Duggal
+                        Khyati Sharma.
                       </h1>
 
                       <p className="text-blue-600 dark:text-blue-300/80 dark:text-glow-blue-500/50">
-                        17 year old full-stack founder.
+                        19 year old AI and Cybersecurity enthusiast.
                       </p>
                     </div>
                   </div>
@@ -515,8 +515,8 @@ export default function Home() {
               },
               {
                 icon: FiLinkedin,
-                href: "https://www.linkedin.com/in/siddharth-duggal",
-                tip: "/in/siddharth-duggal",
+                href: "https://www.linkedin.com/in/artsymaniac",
+                tip: "/in/artsymaniac",
               },
               {
                 icon: FiTwitter,
@@ -570,7 +570,7 @@ export default function Home() {
 
                 <div className="flex items-center space-x-3 text-sm">
                   <a
-                    href="https://github.com/siddharthd0"
+                    href="https://github.com/Khyati-33"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center space-x-2 text-sm"
@@ -653,7 +653,7 @@ export default function Home() {
         <ContactForm />
       </main>
       <footer className="flex items-center justify-center w-full h-16 text-blue-300 ">
-        Made with ❤️ by Siddharth Duggal
+        Made with ❤️ by Khyati Sharma
       </footer>
     </>
   );
