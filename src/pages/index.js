@@ -488,14 +488,13 @@ export default function Home() {
                   </button>
                 </div>
                 <p className="pt-4 text-blue-300 dark:text-blue-100/80 dark:text-glow-blue-300/50">
-                  I'm a 17 year old full-stack developer and founder. I'm
-                  currently working on Bloon AI and Tech Optimum. I'm passionate
-                  about technology and entrepreneurship.
+                  I'm a 19 year old AI student. I'm
+                  currently trying to learn CyberSecurity, mostly through Self Study. I'm passionate
+                  about technology, entrepreneurship and art.
                 </p>
                 <p className="pt-2 text-blue-300 dark:text-blue-100/80 dark:text-glow-blue-300/50">
                   My goal is to build something that is impactful and
-                  meaningful. I'm currently working on Bloon AI and Tech
-                  Optimum.
+                  meaningful. I'm currently working on Theoretical Cryptography.
                 </p>
                 <p className="pt-2 text-blue-300 dark:text-blue-100/80 dark:text-glow-blue-300/50">
                   Feel free to connect with me!
@@ -510,8 +509,8 @@ export default function Home() {
             {[
               {
                 icon: FaGithub,
-                href: "https://github.com/siddharthd0",
-                tip: "@siddharthd0",
+                href: "https://github.com/Khyati-33",
+                tip: "@Khyati-33",
               },
               {
                 icon: FiLinkedin,
@@ -520,13 +519,13 @@ export default function Home() {
               },
               {
                 icon: FiTwitter,
-                href: "https://twitter.com/siddharthd01",
-                tip: "@siddharthd01",
+                href: "https://twitter.com/",
+                tip: "@-",
               },
               {
                 icon: FaDiscord,
-                href: "https://discord.com/users/910659572199464990",
-                tip: "@siddharth._",
+                href: "https://discord.com/",
+                tip: "@-",
               },
             ].map(({ icon: Icon, href, tip }, index) => (
               <motion.div
