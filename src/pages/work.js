@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Nav from "../components/nav";
-import { FaPhoenixFramework } from "react-icons/fa6";
+import { FaPhoenixFramework } from "react-icons/fa";
 import Image from "next/image";
 import React, { createContext, useContext, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
@@ -47,6 +47,7 @@ const ImageModal = ({ src, alt, modalContent, width, height }) => {
     </div>
   );
 };
+
 const Modal = ({ isOpen, onClose, children }) => {
   return (
     <AnimatePresence>
@@ -111,108 +112,26 @@ export default function Projects() {
             <div className="flex items-center justify-between">
               <div>
                 <a
-                  href="https://techoptimum.org"
+                  href="https://"
                   className="items-center flex justify-center text-2xl"
                 >
-                  Tech Optimum{" "}
+                  Applied Cryptography{" "}
                   <IoArrowRedoOutline className="pl-2 text-gray-500 hover:text-blue-100 transition duration-300" />
                 </a>
-                <h1 className="flex text-blue-200 text-md">Founder</h1>
+                <h1 className="flex text-blue-200 text-md">Student</h1>
               </div>
-              <p className="flex text-sm text-blue-300">Jan 2022 - Curr.</p>
+              <p className="flex text-sm text-blue-300">OnGoing</p>
             </div>
             <div class=" h-72 w-72 animate-blob rounded-full bg-blue-900 opacity-8 mix-blend-normal blur-3xl shadow-lg shadow-blue-700/50 filter"></div>
 
             <div className="flex items-center space-between">
               <div>
                 <p className="pt-2 text-blue-600 text-sm dark:text-blue-300/80 dark:text-glow-blue-500/50">
-                  Free ecosystem to learn to code. Sponsored by Replit, OpenAI,
-                  and more.
+                  
                 </p>
               </div>
               <div>
                 <div className="pl-4 grid grid-cols-1 md:grid-cols-2 gap-2">
-                  <ImageModal
-                    src="/tech-home.png"
-                    alt="Tech Home"
-                    width={200}
-                    height={200}
-                    modalContent={
-                      <>
-                        <Image
-                          src="/tech-home.png"
-                          alt="Enlarged Tech Home"
-                          className="rounded-lg"
-                          width={600}
-                          height={400}
-                        />
-                        <p className="text-placeholder pt-2">
-                          Tech Optimum (Home Page)
-                        </p>
-                      </>
-                    }
-                  />
-
-                  <ImageModal
-                    src="/tech-lesson.png"
-                    alt="Tech Lesson"
-                    width={200}
-                    height={200}
-                    modalContent={
-                      <>
-                        <Image
-                          src="/tech-lesson.png"
-                          alt="Enlarged Tech Home"
-                          className="rounded-lg"
-                          width={600}
-                          height={400}
-                        />
-                        <p className="text-placeholder pt-2">
-                          Tech Optimum (Lesson w/Tech Guru AI)
-                        </p>
-                      </>
-                    }
-                  />
-                  <ImageModal
-                    src="/tech-lesson.png"
-                    alt="Tech Lesson"
-                    width={200}
-                    height={100}
-                    modalContent={
-                      <>
-                        <Image
-                          src="/tech-lesson.png"
-                          alt="Enlarged Tech Home"
-                          className="rounded-lg"
-                          width={600}
-                          height={400}
-                        />
-                        <p className="text-placeholder pt-2">
-                          Tech Optimum (Lesson w/Tech Guru AI)
-                        </p>
-                      </>
-                    }
-                  />
-                  <ImageModal
-                    src="/tech-question.png"
-                    alt="Tech Question"
-                    width={200}
-                    height={100}
-                    modalContent={
-                      <>
-                        <Image
-                          src="/tech-question.png"
-                          alt="Enlarged Tech"
-                          className="rounded-lg"
-                          width={600}
-                          height={400}
-                        />
-                        <p className="text-placeholder pt-2">
-                          Tech Optimum (Progress Checks)
-                        </p>
-                      </>
-                    }
-                  />
                   <div className="md:col-span-2"></div>
                 </div>
               </div>
@@ -222,22 +141,25 @@ export default function Projects() {
             <div className="flex items-center justify-between">
               <div>
                 <a
-                  href="https://bloon.ai"
+                  href="https://cryptohack.org"
                   className="items-center flex justify-center text-2xl"
                 >
-                  Bloon
+                  Defcon Delhi
                   <IoArrowRedoOutline className="pl-2 text-gray-500 hover:text-blue-100 transition duration-300" />
                 </a>
-                <h1 className="flex text-zinc-200 text-md">Founder</h1>
+                <h1 className="flex text-zinc-200 text-md">Team Member</h1>
               </div>
-              <p className="flex text-sm text-slate-300">Oct 2023 - Curr.</p>
+              <p className="flex text-sm text-slate-300">Sep 2023 - Curr.</p>
             </div>
 
             <div className="flex items-center space-between">
               <div>
                 <p className="pt-2 text-zinc-500 text-sm dark:text-zinc-300/80 dark:text-glow-zinc-500/50">
-                  Building the world&apos;s first AI-powered digital whiteboard
-                  that can visually explain any concept in the world.
+                  A local chapter of the famous DefCon Conference held in 
+                    Las Vegas each year. We hosted the 0X06 DEFCON Event 
+                    on December 16-17 at IIIT-D, which involved a number of 
+                      workshops, talks by industry experts, CTF Contest, and 
+                        loads of funs.
                 </p>
               </div>
               <div>
@@ -257,7 +179,7 @@ export default function Projects() {
                           height={400}
                         />
                         <p className="text-placeholder pt-2">
-                          Bloon Industries
+                            Web3 - Crypto - NFT
                         </p>
                       </>
                     }
@@ -266,58 +188,8 @@ export default function Projects() {
               </div>
             </div>
           </div>
-          <div className="col-span-6 flex h-52 flex-col justify-between rounded-2xl dark:bg-pink-900/10 px-8 py-8 md:col-span-3">
-            <div className="flex items-center justify-between">
-              <div>
-                <a
-                  href="https:/schoolsimplified.org"
-                  className="items-center flex justify-center text-2xl"
-                >
-                  School Simplified
-                  <IoArrowRedoOutline className="pl-2 text-gray-500 hover:text-pink-200 transition duration-300" />
-                </a>
-                <h1 className="flex text-pink-200 text-md">
-                  Software Engineer
-                </h1>
-              </div>
-              <p className="flex text-sm text-pink-300">Past</p>
-            </div>
-
-            <div className="flex items-center space-between">
-              <div>
-                <p className="pt-2 text-sm dark:text-pink-200">
-                  Worked on internal tools for 300 volunteers to help 60k+
-                  students.
-                </p>
-              </div>
-              <div>
-                <div className="pl-2">
-                  <ImageModal
-                    src="/school-home.png"
-                    alt="SS"
-                    width={400}
-                    height={200}
-                    modalContent={
-                      <>
-                        <Image
-                          src="/school-home.png"
-                          alt="SS"
-                          className="rounded-lg"
-                          width={600}
-                          height={400}
-                        />
-                        <p className="text-placeholder pt-2">
-                          School Simplified
-                        </p>
-                      </>
-                    }
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-        </main>
-      </ModalProvider>
-    </>
-  );
+</main>
+</ModalProvider>
+</>
+);
 }
