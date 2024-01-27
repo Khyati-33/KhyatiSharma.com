@@ -215,7 +215,7 @@ export const ContactForm = () => {
             {" "}
             <p>
               Khyati will get back to you ASAP. It is currently{" "}
-              {formatMDTTime()} for him right now.
+              {formatMDTTime()} for her right now.
             </p>
           </motion.div>
         )}
@@ -617,7 +617,7 @@ export default function Home() {
           <div className="mt-2 col-span-3 flex justify-center items-center px-4 py-2 bg-gray-200 dark:bg-green-700/20 rounded-xl shadow-md">
             <div className="flex items-center justify-center space-x-3 text-sm">
               <a
-                href="https://open.spotify.com/playlist/37i9dQZF1E4qXw4kD6a8K7?si=8e9e9e9e9e9e9e9e"
+                href="https://open.spotify.com/playlist/7sTkp2X5Aq84v9w9UtfkaF"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center space-x-2 text-sm"
@@ -630,7 +630,7 @@ export default function Home() {
 
           <div className="mt-4 flex justify-between rounded-xl shadow-md">
             <iframe
-              src="https://open.spotify.com/embed/playlist/05oxcctpidL0K9QTVq7Bvn?utm_source=generator&theme=0"
+              src="https://open.spotify.com/embed/playlist/7sTkp2X5Aq84v9w9UtfkaF?utm_source=generator&theme=0"
               width="100%"
               height="152"
               allowfullscreen=""
