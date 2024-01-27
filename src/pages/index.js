@@ -623,7 +623,7 @@ export default function Home() {
                 className="flex items-center justify-center space-x-2 text-sm"
               >
                 <FaSpotify className="text-lg text-gray-100" />
-                <span className="font-semibold">Top 15</span>
+                <span className="font-semibold">Top Bollywood Picks</span>
               </a>
             </div>
           </div>
