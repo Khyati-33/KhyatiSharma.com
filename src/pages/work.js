@@ -112,7 +112,7 @@ export default function Projects() {
             <div className="flex items-center justify-between">
               <div>
                 <a
-                  href="https://"
+                  href="https://cryptohack.org""
                   className="items-center flex justify-center text-2xl"
                 >
                   Applied Cryptography{" "}
@@ -141,7 +141,7 @@ export default function Projects() {
             <div className="flex items-center justify-between">
               <div>
                 <a
-                  href="https://cryptohack.org"
+                  href="https://defcon9111.org/about"
                   className="items-center flex justify-center text-2xl"
                 >
                   Defcon Delhi
@@ -168,7 +168,7 @@ export default function Projects() {
                     src="/bloon.png"
                     alt="Bloon"
                     width={400}
-                    height={200}
+                    height={300}
                     modalContent={
                       <>
                         <Image
