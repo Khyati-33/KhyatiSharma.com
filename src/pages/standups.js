@@ -99,7 +99,7 @@ export default function Standups() {
               </p>
             </div>
             <a
-              href="https://twitter.com/siddharthd01"
+              href="https://twitter.com/NandaSh79723377"
               className="flex text-blue-900 dark:text-blue-300 dark:text-glow-blue-500/50 hover:text-white transition duration-300"
             >
               <FaTwitter size="1.5em" />
