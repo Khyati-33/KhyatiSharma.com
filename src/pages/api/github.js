@@ -1,6 +1,6 @@
 
 export default async function handler(req, res) {
-    const githubUsername = 'siddharthd0'; 
+    const githubUsername = 'Khyati-33'; 
     const token = process.env.GITHUB; 
   
     try {
