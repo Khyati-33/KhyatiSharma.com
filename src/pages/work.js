@@ -113,7 +113,7 @@ export default function Projects() {
             <div className="flex items-center justify-between">
               <div>
                 <a
-                  href="https://cryptohack.org""
+                  href="https://cryptohack.org"
                   className="items-center flex justify-center text-2xl"
                 >
                   Applied Cryptography{" "}
