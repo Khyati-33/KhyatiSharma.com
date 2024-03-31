@@ -108,7 +108,12 @@ export default function Projects() {
               </div>
             </div>
           </div>
+    <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="064a99a1-5475-48f5-8876-f980ae409bca" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+    <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="6756315a-5d24-4a18-afc1-f64fafc2faff" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+    <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="70007123-c9f5-4dc4-a443-9b4890443470" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
     <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="129bb4cd-59b4-4dc5-90e3-54e5431d57a5" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+    <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="ea11c559-94b9-4083-a05c-ef846fff9f18" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+    <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="6de5162f-20bd-4543-af1d-3d9afe5c07b8" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
           <div className="col-span-6 flex h-52 flex-col justify-between overflow-hidden rounded-2xl bg-blue-200 px-8 py-8 dark:border-blue-500 dark:bg-blue-900/20 dark:shadow-none dark:backdrop-blur-2xl md:col-span-4">
             <div className="flex items-center justify-between">
               <div>
