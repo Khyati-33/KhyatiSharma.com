@@ -145,7 +145,7 @@ export default function Projects() {
                     src="/bloon.png"
                     alt="Bloon"
                     width={400}
-                    height={300}
+                    height={450}
                     modalContent={
                       <>
                         <Image
@@ -169,7 +169,7 @@ export default function Projects() {
           {/* Embedded Instagram Posts */}
           <div className="col-span-6 flex flex-wrap gap-6 justify-between items-center">
             <iframe
-              src="https://www.instagram.com/p/EXAMPLE_EMBED_URL/embed"
+              src="https://www.instagram.com/p/C894OYotTtN/"
               width="320"
               height="400"
               className="rounded-lg shadow-md"
@@ -177,7 +177,15 @@ export default function Projects() {
               frameBorder="0"
             ></iframe>
             <iframe
-              src="https://www.instagram.com/p/EXAMPLE_EMBED_URL2/embed"
+              src="https://www.instagram.com/p/C9KxfAqSoB3/"
+              width="320"
+              height="400"
+              className="rounded-lg shadow-md"
+              allowTransparency="true"
+              frameBorder="0"
+            ></iframe>
+              <iframe
+              src="https://www.instagram.com/p/DApl2VyImHE/"
               width="320"
               height="400"
               className="rounded-lg shadow-md"
